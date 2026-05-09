@@ -118,6 +118,37 @@ section {
     margin: 10px;
 }
 
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
 /* Pricing */
 .price {
     font-size: 2rem;
@@ -215,15 +246,40 @@ footer i {
     <img src="https://via.placeholder.com/250">
 </section>
 
-<!-- Specs -->
-<section class="specs">
-    <h2>Specifications</h2>
-    <div class="card">Battery: 20000mAh</div>
-    <div class="card">USB Ports: 2</div>
-    <div class="card">Charging Time: 6-8 hrs</div>
-    <div class="card">Weight: 400g</div>
-</section>
+<section class="products">
+  <h2>Our Powerbanks</h2>
 
+  <!-- Powerbank 1 -->
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIyDNl1HmSIWgI3IbjJFUibtNqTL08X_otw&s">
+    <h3>Black Powerbank</h3>
+    <p>Battery: 20000mAh</p>
+    <p>USB Ports: 2</p>
+    <p>Charging Time: 6-8 hrs</p>
+    <p>Weight: 400g</p>
+  </div>
+
+  <!-- Powerbank 2 -->
+  <div class="card">
+    <img src="images/powerbank-blue.png" alt="Blue Powerbank">
+    <h3>Blue Powerbank</h3>
+    <p>Battery: 20000mAh</p>
+    <p>USB Ports: 2</p>
+    <p>Charging Time: 6-8 hrs</p>
+    <p>Weight: 400g</p>
+  </div>
+
+  <!-- Powerbank 3 -->
+  <div class="card">
+    <img src="images/powerbank-green.png" alt="Green Powerbank">
+    <h3>Green Powerbank</h3>
+    <p>Battery: 20000mAh</p>
+    <p>USB Ports: 2</p>
+    <p>Charging Time: 6-8 hrs</p>
+    <p>Weight: 400g</p>
+  </div>
+
+</section>
 <!-- Testimonials -->
 <section class="testimonials">
     <h2>Testimonials</h2>
